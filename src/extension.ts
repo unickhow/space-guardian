@@ -24,21 +24,11 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 function addSpacesBetweenChineseAndEnglish(text: string, fileType: string): string {
-	switch (fileType) {
-		case 'html':
-		case 'vue':
-		case 'svelte':
-		case 'md':
-			return text.replace(/([\u4E00-\u9FA5])([a-zA-Z])/g, '$1 $2')
+	try {
+		return text.replace(/([\u4E00-\u9FA5])([a-zA-Z])/g, '$1 $2')
 				.replace(/([a-zA-Z])([\u4E00-\u9FA5])/g, '$1 $2');
-		case 'javascript':
-		case 'javascriptreact':
-		case 'typescript':
-		case 'typescriptreact':
-			return text.replace(/([\u4E00-\u9FA5])([a-zA-Z])/g, '$1 $2')
-				.replace(/([a-zA-Z])([\u4E00-\u9FA5])/g, '$1 $2');
-		default:
-			return text;
+	}	catch (e) {
+		return text;
 	}
 }
 
