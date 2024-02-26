@@ -10,6 +10,7 @@
   "categories": [
     "Other"
   ],
+  "author": "unickhow <unick.zhow@gmail.com>",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
@@ -19,6 +20,10 @@
         "title": "Make room"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unickhow/space-guardian"
   },
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
