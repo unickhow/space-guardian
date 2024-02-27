@@ -7,7 +7,7 @@ Enhance the readability of your code effortlessly with this Visual Studio Code e
 
 ## How to use
 
-`Cmd + Shift + P` (or `Ctrl + Shift + P` for Windows) and execute 'Make room'.
+`Cmd + Shift + P` (or `Ctrl + Shift + P` for Windows) and execute 'Make room', works on the current selection or the whole document.
 
 ## TODO
 

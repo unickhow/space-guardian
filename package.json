@@ -2,7 +2,7 @@
   "name": "space-guardian",
   "displayName": "Space guardian",
   "description": "Extend mercy to your readability between Chinese and English",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "unickhow",
   "engines": {
     "vscode": "^1.86.0"
