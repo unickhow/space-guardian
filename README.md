@@ -12,5 +12,5 @@ Enhance the readability of your code effortlessly with this Visual Studio Code e
 ## TODO
 
 - [x] demo gif
-- [ ] icon
+- [x] icon
 - [ ] testing
