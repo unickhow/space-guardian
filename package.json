@@ -2,7 +2,7 @@
   "name": "space-guardian",
   "displayName": "Space guardian",
   "description": "Extend mercy to your readability between Chinese and English",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "publisher": "unickhow",
   "engines": {
     "vscode": "^1.86.0"
@@ -32,7 +32,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "pnpm run compile && pnpm run lint",
     "lint": "eslint src --ext ts",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "pack": "vsce pack --no-dependencies"
   },
   "devDependencies": {
     "@types/vscode": "^1.86.0",
